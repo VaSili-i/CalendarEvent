@@ -13,7 +13,7 @@ app.use(cors())
 app.use('/', router)
 
 function start() {
-    mongoose.connect('mongodb+srv://user:12345dfcz@cluster0.3cpyo.mongodb.net/JWT_Token?retryWrites=true&w=majority');
+    mongoose.connect('mongodb+srv://user:???@cluster0.3cpyo.mongodb.net/???retryWrites=true&w=majority');
     app.listen(PORT, () => console.log(`server is working on:${PORT}`));
 }
 
